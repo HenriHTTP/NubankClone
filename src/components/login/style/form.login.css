@@ -1,0 +1,65 @@
+*{ 
+    font-size: 1em;
+}
+.Content{ 
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: blueviolet;
+}
+.Loginform{ 
+    margin: auto;
+    width:400px;
+    padding: 30px;
+    text-align: center;
+    color:black; 
+    flex-direction: column;
+    display: flex;
+    height: 550px;
+    border-radius: 10px;
+    background-color: white;
+}
+.Loginform input { 
+    padding: 5px;
+    width: 300px;
+    margin:auto ;
+    text-align: center;
+    font-size: 1.1em;
+    border:none;
+    border-bottom: 2px dotted gray;
+    opacity: 0.5;
+    
+}
+.Loginform button { 
+    padding: 10px;
+    width: 300px;
+    margin:auto ;
+    color:blueviolet;
+    opacity: 0.5;
+    background-color: white;
+    border: solid 2px blueviolet;
+    padding: 15px;
+
+}
+
+.Loginform label { 
+    padding: 5px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.Loginform label:hover { 
+    color:blueviolet; 
+}
+.Loginform p { 
+    font-size: 1.3em;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.Loginform h1 { 
+    font-size: 1.5em;
+    
+}
