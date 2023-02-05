@@ -1,0 +1,62 @@
+.ContentPeople{ 
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 1000px;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    flex-direction: row;
+}
+.ContentPeopleCenter{ 
+    width: 1400px;
+    display: flex;
+}
+.CardPeople{ 
+    width: 30vw;
+    background-color: white;
+    height: 900px;
+    margin: auto;
+    color:white;   
+    display: flex;
+    justify-content: center;
+}
+.CardPeople img{ 
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.CardMarketPeople{
+    width: 70vw;
+    height: 900px;
+    margin: auto;
+    color:white;   
+    display: flex;
+    flex-direction: column;
+    color:black; 
+}
+
+.CardMarketPeopleContent h1{
+    font-size: 3em;
+    text-align: left;
+    padding: 20px;
+}
+.CardMarketPeopleContent p{
+    font-size: 1.3em;
+    text-align: left;
+    padding: 20px;
+}
+
+.CardMarketPeopleContent{
+    margin: auto;
+    width: 700px;
+}
+.CardMarketPeopleContent label{
+    font-size: 1.2em;
+    text-align: left;
+    padding: 20px;
+    color: blueviolet;
+    cursor: pointer;
+}

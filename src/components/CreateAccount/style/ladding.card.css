@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+}
+
+
+.ContentLadding{ 
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 1000px;
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+    flex-direction: row;
+}
+.ContentCenter{ 
+    width: 1400px;
+    display: flex;
+}
+.CardCard{ 
+    width: 50vw;
+    background-color: white;
+    height: 900px;
+    margin: auto;
+}
+
+.CardCard img{ 
+        width: 600px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+}
+.CardCard h1{ 
+    font-size: 3em;
+    text-align: center;
+    padding: 40px;
+}
+.CardCard p{ 
+    font-size: 1.3em;
+    text-align: left;
+    padding: 40px;
+    width: 200px;
+}
+
+.CardPhone{ 
+    width: 50vw;
+    background-color: black;
+    height: 900px;
+    margin: auto;
+    color:white;   
+}
+.CardPhone h1{ 
+    font-size: 3em;
+    text-align: center;
+    padding: 40px;
+}
+.CardPhone p {
+    font-size: 1.3em;
+    text-align: left;
+    padding: 40px;
+    width: 200px;
+}
+
+.CardPhone img{ 
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

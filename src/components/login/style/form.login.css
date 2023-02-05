@@ -31,6 +31,7 @@
     border:none;
     border-bottom: 2px dotted gray;
     opacity: 0.5;
+    outline: 0;
     
 }
 .Loginform button { 
@@ -61,5 +62,6 @@
 
 .Loginform h1 { 
     font-size: 1.5em;
+    opacity: 0.9;
     
 }
