@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './style/createAccount.form.css'
 import { LaddingCard } from './ladding.card'
 import CardPeople from './ladding.card.people'
+import MarketCard from './ladding.card.market'
 
 export default function CreateAccount (){ 
     return (
@@ -28,6 +29,8 @@ export default function CreateAccount (){
             </div>
             <LaddingCard/>
             <CardPeople/>
+            <MarketCard  TiltleText={'loorem ipsum dolor'} TextContent={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus temporibus doloribus veritatis eveniet.'} TextValue={'0,00'}  backgroundColor={'whiteSmoke'}/> 
+            <MarketCard color={'white'}  TiltleText={'loorem ipsum dolor dolor sit amet consectetur'}  TextContent={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus temporibus doloribus veritatis eveniet.'}  backgroundColor={'blueviolet'} TextValue={''}/> 
         </>
     )
 }

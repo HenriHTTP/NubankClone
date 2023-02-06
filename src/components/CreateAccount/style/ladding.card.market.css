@@ -1,0 +1,50 @@
+*{ 
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ContentMarketMarket{ 
+    width:100vw; 
+    height: 1000px; 
+    background-color: white;
+    color:white;   
+    display: flex;
+    justify-content: center;
+}
+.MarketPhaseContent{ 
+    margin: auto;
+    height: 500px;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.MarketPhaseContent h1{ 
+   font-size: 3em;
+   text-align: left;
+   color:black ;
+}
+.MarketPhaseContent p{ 
+    font-size: 1.3em;
+    text-align: left;
+    color:black ;
+    padding: 20px;
+    padding-left: 0px;
+ }
+ .MarketPhaseContent main{ 
+    height: 200px;
+    margin: auto;
+ }
+.NumberContent{ 
+    font-size: 25em;
+    color:black;
+    margin: auto;
+    width: 50vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.NumberContent h1{ 
+    margin: auto;
+}
