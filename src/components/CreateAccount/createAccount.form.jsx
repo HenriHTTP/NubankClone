@@ -22,7 +22,7 @@ export default function CreateAccount (){
                         <label>Lorem ipsum dolor sit amet consectetur!</label>
                         <p>type it cpf</p>
                         <input placeholder='type it here' type="text" name="" id="" />
-                        <button><Link to="/createAccount" style={{ textDecoration: 'none', color: 'white' }}>Enter</Link></button>
+                        <button><Link to="/register" style={{ textDecoration: 'none', color: 'white' }}>Enter</Link></button>
                     </div>
                     
                 </div>
