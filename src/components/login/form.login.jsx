@@ -19,34 +19,42 @@ export  default function FormLogin (){
     const moveOnP = () => { 
         let movepass = document.getElementById('PassP')
         movepass.style.fontSize = '1.1em'
+        movepass.style.color = 'blueviolet'
     }
     const moveOutP = () => { 
         let movepass = document.getElementById('PassP')
         movepass.style.fontSize = '1.3em'
+        movepass.style.color = 'black'
     }
     const moveOnU = () => { 
         let movepass = document.getElementById('UserP')
         movepass.style.fontSize = '1.1em'
+        movepass.style.color = 'blueviolet'
+
+
     }
     const moveOutU = () => { 
         let movepass = document.getElementById('UserP')
         movepass.style.fontSize = '1.3em'
+        movepass.style.color = 'black'
     }
 
 
     return ( 
+        <>
         <div className='Content'>
             <div className='Loginform'>
                 <h1>Login</h1>
-                <p id='UserP'>Username</p>
-                <input placeholder='type it your username here'onFocus={moveOnU}  onBlur={moveOutU}type="text" name="" id="username" onChange={e => setUser(e.target.value)}/>
+                <p id='UserP'>CPF</p>
+                <input onFocus={moveOnU}  onBlur={moveOutU}type="text" name="" id="username" onChange={e => setUser(e.target.value)}/>
                 <p id='PassP'>Password</p>
-                <input onBlur={moveOutP} onFocus={moveOnP} placeholder='type it your password here' type="password" name="" id="pass" onChange={e => setPass(e.target.value)}/>
+                <input onBlur={moveOutP} onFocus={moveOnP}  type="password" name="" id="pass" onChange={e => setPass(e.target.value)}/>
 
                 <button id='Enter'onClick={DateLogin}>Enter</button>
-                <label><Link to="/request-user" style={{ textDecoration: 'none' }}>Forgot username?</Link></label>
+                <label><Link to="/requestPassword" style={{ textDecoration: 'none' }}>Forgot username?</Link></label>
                 <label><Link to="/createAccount" style={{ textDecoration: 'none' }}>Create account?</Link></label>
             </div>
         </div>
+    </>
     )
 }
