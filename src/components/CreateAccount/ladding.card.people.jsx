@@ -15,12 +15,12 @@ export default function  LaddingCardPeole () {
                 <div className='CardMarketPeople'>  
                     <div className='CardMarketPeopleContent'>
                     <h1> 
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        The account that will put you in control of your financial life.
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, unde culpa corporis nulla minima delectus veniam quod.
+                        The premium credit card for you to live all your choices.
                     </p>
-                    <label>Lorem ipsum dolor</label>
+                    <label>read more</label>
                     </div>
                 </div>
             </div>

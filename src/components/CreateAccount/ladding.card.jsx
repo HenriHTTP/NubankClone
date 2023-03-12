@@ -16,7 +16,7 @@ export let LaddingCard = () => {
                 </h1>
                 <img src={PhoneCard} alt="img" />
 
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.s.</p>
+                <p>access your account on your mobile</p>
 
             </div>
                   
@@ -27,7 +27,7 @@ export let LaddingCard = () => {
                 </h1>
 
                 <img src={imgCard} alt="img" />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.s.</p>
+                <p>have your card anytime</p>
 
             </div>
          </div>   

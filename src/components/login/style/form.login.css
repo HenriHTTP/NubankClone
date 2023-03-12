@@ -9,6 +9,8 @@
     margin: 0px;
     padding: 0px;
     background-color: blueviolet;
+    background: url('../img/cardposter2.jpg');
+    background-size: cover;
 }
 .Loginform{ 
     margin: auto;
